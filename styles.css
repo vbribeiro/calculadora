@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-blue: #13293D;
+    --light-blue: #006494;
+    --font-pattern: 'Noto-Sans', sans-serif;
+    --font-color-blue: #006494;
+    --font-color-white: #fff;
+}
+
+body {
+    background: var(--dark-blue);
+    font-family: var(--font-pattern);
+    color: var(--font-color-blue);
+}
+
+.calculadora {
+    background: var(--font-color-white);
+    width: 400px;
+    height: 500px;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.calculadora__teclas {
+    display: grid;
+}
